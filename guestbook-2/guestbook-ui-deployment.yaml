@@ -20,12 +20,3 @@ spec:
           name: guestbook-ui
           ports:
             - containerPort: 80
-$:
-  metadata:
-    labels:
-      version: 0.0.6
-  spec:
-    template:
-      spec:
-        containers:
-          - image: corelab/ks-guestbook-demo:0.1
