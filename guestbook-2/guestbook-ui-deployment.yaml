@@ -16,7 +16,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: corelab/ks-guestbook-demo:0.1
+        - image: corelab/ks-guestbook-demo:0.3
           name: guestbook-ui
           ports:
             - containerPort: 80
