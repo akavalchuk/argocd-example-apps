@@ -1,6 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations:
+    argo.octopus.com/project: "gateway-test"
+    argo.octopus.com/environment: "development"
   name: guestbook-ui
   labels:
     version: 0.0.6
